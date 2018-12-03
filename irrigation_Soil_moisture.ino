@@ -20,16 +20,18 @@ void loop()
    output_value = map(output_value, 550, 0, 0, 100);
 
    Serial.print("Mositure : ");
-   if (output_value == -86)//hypothatical value....
+   if (output_value == -86)//hypothatical value.... need to fine tune according tho the plants requirements
+   
    {
       digitalWrite(led, HIGH);
       Serial.println("if condition");//debugging  purpose
    }
    else
    {
-      Serial.println("else condition");
+      Serial.println("else condition");//debugging purpose
+       digitalWrite(led, LOW);
    }
-   digitalWrite(led, LOW);
+  
 
    Serial.print(output_value);
 
