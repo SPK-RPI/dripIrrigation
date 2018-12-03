@@ -1,0 +1,7 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "COM10",
+    "sketch": "soil.ino",
+    "output": "../build",
+    "debugger": "jlink"
+}
