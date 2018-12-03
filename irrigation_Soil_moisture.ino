@@ -23,7 +23,7 @@ void loop()
    if (output_value == -86)//hypothatical value....
    {
       digitalWrite(led, HIGH);
-      Serial.println("if condition");//dbuding purpose
+      Serial.println("if condition");//debugging  purpose
    }
    else
    {
