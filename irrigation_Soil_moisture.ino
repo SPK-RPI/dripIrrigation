@@ -2,7 +2,7 @@
 int sensor_pin = A0;
 
 int output_value;
-int led = 7;
+int led = 7;//this represent the motor output.....
 
 void setup()
 {
